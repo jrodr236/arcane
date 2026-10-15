@@ -8,6 +8,10 @@ header {
   text-align: center;
   background: #5b3a70;
   color: white;
+  background-image: url('img/arcane-header.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header h1 {
