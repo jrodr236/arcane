@@ -22,3 +22,9 @@ header p {
   font-size: 1.2em;
   opacity: 0.8;
 }
+
+a {
+    color: #d1a349;
+    font-weight: bold;
+    text-decoration: none;
+}
