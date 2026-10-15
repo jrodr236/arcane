@@ -40,3 +40,20 @@ footer p {
   opacity: 0.8;
   font-size: 0.9em;
 }
+
+nav {
+    background-color: black;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background: #8b1e3f;
+    transform: translateY(-2px);
+}
