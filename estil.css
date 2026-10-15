@@ -1,3 +1,13 @@
+:root {
+  --color-accent: #d1a349;
+  --color-principal: #8b1e3f;
+  --color-secundari: #5b3a70;
+  --color-neutre: #274156;
+  --color-negre: black;
+  --color-gris: #b5b8c2;
+  --color-blanc: white;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -6,8 +16,8 @@ body {
 header {
   padding: 80px;
   text-align: center;
-  background: #5b3a70;
-  color: white;
+  background: var(--color-secundari);
+  color: var(--color-blanc);
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/arcane-header.jpg');
   background-position: center;
   background-size: cover;
@@ -24,7 +34,7 @@ header p {
 }
 
 a {
-    color: #d1a349;
+    color: var(--color-accent);
     font-weight: bold;
     text-decoration: none;
 }
@@ -32,8 +42,8 @@ a {
 footer {
   padding: 30px;
   text-align: center;
-  background: black;
-  color: white;
+  background: var(--color-negre);
+  color: var(--color-blanc);
 }
 
 footer p {
@@ -42,18 +52,18 @@ footer p {
 }
 
 nav {
-    background-color: black;
+    background-color: var(--color-negre);
     display: flex;
 }
 
 nav a {
-    color: white;
+    color: var(--color-blanc);
     padding: 14px 20px;
     transition: all 0.3s ease;
     font-weight: 500;
 }
 
 nav a:hover {
-    background: #8b1e3f;
+    background: var(--color-principal);
     transform: translateY(-2px);
 }
