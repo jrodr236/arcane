@@ -28,3 +28,15 @@ a {
     font-weight: bold;
     text-decoration: none;
 }
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+footer p {
+  opacity: 0.8;
+  font-size: 0.9em;
+}
