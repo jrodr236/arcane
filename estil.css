@@ -125,7 +125,7 @@ section img.personatge {
   height: 300px;
 }
 
-section .parallax {
+.parallax {
   background-image: url('img/arcane-characters.jpg');
   height: 400px;
   width: 100%;
