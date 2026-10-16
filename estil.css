@@ -205,3 +205,12 @@ section img {
   border-radius: 8px;
   margin: 0px;
 }
+
+#contenidor-personatges {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
