@@ -67,3 +67,21 @@ nav a:hover {
     background: var(--color-principal);
     transform: translateY(-2px);
 }
+
+main {
+  display: flex;
+}
+
+aside {
+  background-color: var(--color-principal);
+  color: white;
+  padding: 60px;
+  width: 25%;
+  max-width: 300px;
+}
+
+aside img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
