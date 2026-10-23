@@ -108,7 +108,7 @@ canviarà els estils:
 section {
   padding: 60px;
   background-color: var(--color-neutre);
-  color: white;
+  color: var(--color-blanc);
   flex: 1;
 }
 
